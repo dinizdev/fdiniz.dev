@@ -1,24 +1,88 @@
-import Link from "next/link";
+import Link from 'next/link';
+import { useState } from 'react';
 
-export  default function Headbar(){
-    return(
-        <div className="flex justify-center ... bg-primary p-4">
-            <Link href="/">
-                <a className="p-4  hover:text-indigo-600">Home</a>
-            </Link>
-            <Link href="About">
-                <a className="p-4  hover:text-indigo-600">About</a>
-            </Link>
-            <Link href="Links">
-                <a className="p-4">Links</a>
-            </Link>
-            <Link href="Setup">
-                <a className="p-4">Setup</a>
-            </Link>
-            <Link href="HireMe">
-                <a className="p-4">Hire me!</a>
-            </Link>
-            
+
+export default function Headbar() {
+  const [navbar, setNavbar] = useState(false);
+  return (
+    <div>
+      <nav className="w-full bg-black shadow">
+        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+          <div>
+            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+              <a href="/">
+                <h2 className="text-[1.2rem] text-white font-bold">FDiniz.dev</h2>
+              </a>
+              <div className="md:hidden">
+                <button
+                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  onClick={() => setNavbar(!navbar)}
+                >
+                  {navbar ? (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6 text-white"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  ) : (
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="w-6 h-6 text-white"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                      strokeWidth={2}
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4 6h16M4 12h16M4 18h16"
+                      />
+                    </svg>
+                  )}
+                </button>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+                navbar ? 'block' : 'hidden'
+              }`}
+            >
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+                <li className="text-white">
+                  <Link href="About">
+                    <a>About</a>
+                  </Link>
+                </li>
+                <li className="text-white">
+                  <Link href="Links">
+                    <a>Links</a>
+                  </Link>
+                </li>
+                <li className="text-white">
+                  <Link href="Setup">
+                    <a>Setup</a>
+                  </Link>
+                </li>
+                <li className="text-white">
+                  <Link href="HireMe">
+                    <a>Hire ME!</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
-    )
+      </nav>
+    </div>
+  );
 }
