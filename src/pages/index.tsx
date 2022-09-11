@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Headbar from '../components/Headbar'
 import Footer from '../components/Footer'
+import { ImFolderDownload } from "react-icons/im";
 
 
 
@@ -22,7 +23,7 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="p-20 min-flex justify-center ... align">
-        <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500 ...">
+        <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-pink-500">
           Felipe Diniz
         </h1>
         <p className='text-[1.2rem] pt-10'>
@@ -34,8 +35,13 @@ const Home: NextPage = () => {
        
         </p>      
         <Link href="">
-          <button className='p-[1.2rem] bg-slate-700'>Download CV</button>
+          
+          <button className='flex-row justify-center p-[1.2rem] bg-slate-700'>
+            <span><ImFolderDownload></ImFolderDownload> Download CV</span>
+          </button>
+          
         </Link>
+        
       </div>
       <Footer />
     </div>

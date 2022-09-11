@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 
+
 export default function Headbar() {
   const [navbar, setNavbar] = useState(false);
   return (
@@ -11,7 +12,7 @@ export default function Headbar() {
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="/">
-                <h2 className="text-[1.2rem] text-white font-bold">FDiniz.dev</h2>
+                <h2 className="text-[1.2rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-pink-400">FDiniz.dev</h2>
               </a>
               <div className="md:hidden">
                 <button
