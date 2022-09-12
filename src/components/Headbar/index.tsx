@@ -1,28 +1,28 @@
-import Link from 'next/link';
-import { useState } from 'react';
-
-
+import Link from 'next/link'
+import { useState } from 'react'
 
 export default function Headbar() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false)
   return (
     <div>
       <nav className="w-full bg-[#08070b] shadow">
-        <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+        <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
           <div>
-            <div className="flex items-center justify-between py-3 md:py-5 md:block">
+            <div className="flex items-center justify-between py-3 md:block md:py-5">
               <Link href="/">
-                  <h2 className="text-[1.2rem] uppercase  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-600 ">FDiniz.dev</h2>
+                <h2 className="cursor-pointer bg-gradient-to-r from-pink-600 via-purple-400 to-indigo-500 bg-clip-text text-[1.2rem] font-bold uppercase text-transparent ">
+                  FDiniz.dev
+                </h2>
               </Link>
               <div className="md:hidden">
                 <button
-                  className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                  className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
                   onClick={() => setNavbar(!navbar)}
                 >
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="h-6 w-6 text-white"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -35,7 +35,7 @@ export default function Headbar() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="h-6 w-6 text-white"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -54,7 +54,7 @@ export default function Headbar() {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`mt-8 flex-1 justify-self-center pb-3 md:mt-0 md:block md:pb-0 ${
                 navbar ? 'block' : 'hidden'
               }`}
             >
@@ -85,5 +85,5 @@ export default function Headbar() {
         </div>
       </nav>
     </div>
-  );
+  )
 }

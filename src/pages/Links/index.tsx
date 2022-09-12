@@ -1,31 +1,65 @@
-import Headbar from "../../components/Headbar";
-import Head from "next/head";
-import axios from "axios";
-import { url } from "inspector";
+import axios from 'axios'
+import { GetStaticProps } from 'next'
+import Head from 'next/head'
+import { useEffect, useState } from 'react'
+import { ImFolderDownload } from 'react-icons/im'
 
-export default function Links(){
+import Headbar from '../../components/Headbar'
 
-    return (
-        <div>
-            <Headbar/>
+export const getStaticProps: GetStaticProps = async () => {
+  const url = 'https://api.github.com/users/dinizdev'
+  const data = await axios.get(url)
+  return {
+    props: {
+      users: [
+        {
+          ...data.data,
+        },
+      ],
+    },
+  }
+}
 
-            <Head>
-            <title>Teste rota 2</title>
-            <meta
-            name="description"
-            content=""
-            />
-            <link rel="icon" href="/favicon.ico" />
-            </Head>
-            <h1 className="p-20 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
-                Links
-            </h1> 
-            <div className="flex min-flex justify-center">
-            <button className='font-bold px-16 flex-row justify-center p-[1.2rem] bg-slate-700'>
-                Fetch Links
-            </button>
-            
-            </div>
-        </div>
-    )
+export default function Links(props: any) {
+  const [users, setUsers] = useState([])
+  useEffect(() => {
+    if (props.users) {
+      setUsers(props.users)
+      console.log(props.users)
+    }
+  }, [props.users])
+
+  return (
+    <div>
+      <Headbar />
+
+      <Head>
+        <title>Teste rota 2</title>
+        <meta name="description" content="" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-left text-5xl font-extrabold text-transparent">
+        Links
+      </h1>
+      <div className="min-flex flex justify-center">
+        <a
+          target="_blank"
+          href="cv.pdf"
+          className="mx-auto flex w-fit items-center justify-center gap-3 rounded-md bg-[#7d6ef4] p-4 px-6 font-bold  leading-tight text-white"
+        >
+          <span className="leading flex h-full items-center align-middle">
+            Fetch Links
+          </span>
+        </a>
+      </div>
+      <div className="grid h-56 grid-cols-2 content-center gap-4 text-center">
+        <h2 className="text-center text-2xl">Data fetching links</h2>
+        <ul className="col-start-2 text-2xl">
+          {users.map((users: any) => (
+            <p key={users.name}>{users.name}</p>
+          ))}
+        </ul>
+      </div>
+    </div>
+  )
 }
