@@ -9,12 +9,14 @@
   font-weight: normal;
   font-style: normal;
 }
-
-html,
-body {
+html,body,#__next{
+  height: 100%;
+}
+*{
   padding: 0;
   margin: 0;
   src: url('../assets/Biotif.ttf');
+  box-sizing: border-box;
 }
 
 a {
@@ -28,11 +30,6 @@ a {
   font-family: 'Quicksand', sans-serif;
 
 ;}
-
-* {
-  box-sizing: border-box;
-}
-
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
