@@ -7,12 +7,12 @@ export default function Headbar() {
   const [navbar, setNavbar] = useState(false);
   return (
     <div>
-      <nav className="w-full bg-black shadow">
+      <nav className="w-full bg-[#08070b] shadow">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="/">
-                <h2 className="text-[1.2rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-pink-400">FDiniz.dev</h2>
+                <h2 className="text-[1.2rem]  font-bold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-pink-600 ">FDiniz.dev</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -70,8 +70,8 @@ export default function Headbar() {
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="Setup">
-                    <a>Setup</a>
+                  <Link href="Projects">
+                    <a>Projects</a>
                   </Link>
                 </li>
                 <li className="text-white">

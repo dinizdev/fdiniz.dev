@@ -1,7 +1,10 @@
 import Headbar from "../../components/Headbar";
 import Head from "next/head";
+import axios from "axios";
+import { url } from "inspector";
 
 export default function Links(){
+
     return (
         <div>
             <Headbar/>
@@ -14,9 +17,15 @@ export default function Links(){
             />
             <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1 className="p-10 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500 ...">
-                Soon =)
-            </h1>
+            <h1 className="p-20 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+                Links
+            </h1> 
+            <div className="flex min-flex justify-center">
+            <button className='font-bold px-16 flex-row justify-center p-[1.2rem] bg-slate-700'>
+                Fetch Links
+            </button>
+            
+            </div>
         </div>
     )
 }

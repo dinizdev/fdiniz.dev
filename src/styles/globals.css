@@ -39,8 +39,22 @@ a {
   }
   body {
     color: white;
-    background: black;
+    background: #08070b;
     font-family: "Biotif";
     src: url('../assets/Biotif.ttf');
   }
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #24c361;
+    border-radius: 10px;
+    border: 10px solid #24c361;
+}
+
+::-webkit-scrollbar-track {
+    background: #151417;
 }
