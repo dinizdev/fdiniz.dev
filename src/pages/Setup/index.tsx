@@ -1,7 +1,7 @@
 import Headbar from "../../components/Headbar";
 import Head from "next/head";
 
-export default function Setup(){
+export default function Projects(){
     return (
         <div>
             <Headbar/>
@@ -14,8 +14,8 @@ export default function Setup(){
                 />
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <h1 className="p-10 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-purple-500 to-pink-500 ...">
-                Setup
+            <h1 className="p-20 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+                Projects
             </h1>
         </div>
     )

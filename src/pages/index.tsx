@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     <div>
       <Headbar />
       <Head>
-        <title>Fdiniz.dev</title>
+        <title>Felipe Diniz</title>
         <meta
           name="description" />
           <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,10 +22,11 @@ const Home: NextPage = () => {
           <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Quicksand:wght@300;400&display=swap" rel="stylesheet"/>
           <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="p-20 min-flex justify-center ... align">
-        <h1 className="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-green-500 via-purple-500 to-pink-500">
-          Felipe Diniz
-        </h1>
+      <h1 className="p-20 text-left text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-pink-400 to-red-600">
+        Felipe Diniz
+      </h1>
+      <div className="p-28 min-flex justify-center align">
+      
         <p className='text-[1.2rem] pt-10'>
           FullStack Developer | Systems analysis and development. =)
           <br />
@@ -36,14 +37,26 @@ const Home: NextPage = () => {
         </p>      
         <Link href="">
           
-          <button className='flex-row justify-center p-[1.2rem] bg-slate-700'>
+          <button className='flex-row justify-center px-6 p-[1rem] bg-slate-700'>
             <span><ImFolderDownload></ImFolderDownload> Download CV</span>
           </button>
           
         </Link>
+
+        
         
       </div>
-      <Footer />
+      <div className="p-20 flex min-flex justify-center">
+        <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, eveniet reiciendis tempora architecto nulla maiores obcaecati reprehenderit pariatur ab voluptas dolor, eos deserunt cupiditate corrupti similique natus unde aperiam. Corporis.</div>
+        <div>02</div>
+        <div>03</div>
+        <div>04</div>
+        <div>05</div>
+        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad autem cum sed, reprehenderit deleniti neque velit recusandae repellat voluptates veritatis odio voluptatem culpa officiis repellendus laboriosam ullam doloribus facere consequatur.</div>
+      </div>
+      <div className='flex flex-col h-screen'>
+        <Footer />
+      </div>
     </div>
    
   )
