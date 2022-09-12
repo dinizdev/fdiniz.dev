@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../../components/Footer'
 
 import Headbar from '../../components/Headbar'
 
@@ -21,6 +22,7 @@ export default function About() {
           </ul>
         </nav>
       </div>
+      <Footer />
     </div>
   )
 }

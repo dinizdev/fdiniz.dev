@@ -2,6 +2,7 @@ import axios from 'axios'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
+import Footer from '../../components/Footer'
 
 import Headbar from '../../components/Headbar'
 
@@ -58,7 +59,9 @@ export default function Links(props: any) {
             <p key={users.name}>{users.name}</p>
           ))}
         </ul>
+        
       </div>
+      <Footer />
     </div>
   )
 }
