@@ -2,7 +2,6 @@ import axios from 'axios'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
-import { ImFolderDownload } from 'react-icons/im'
 
 import Headbar from '../../components/Headbar'
 

@@ -1,3 +1,4 @@
 {
-    "extends": "@kayooliveira/eslint-config/react"
+    "extends": "@kayooliveira/eslint-config/react",
+    "react/react-in-jsx-scope": "off"
 }
