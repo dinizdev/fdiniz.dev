@@ -42,12 +42,8 @@ export default function Links(props: any) {
         Links
       </h1>
       <div className="min-flex flex justify-center">
-        <a
-          target="_blank"
-          href="cv.pdf"
-          className="mx-auto flex w-fit items-center justify-center gap-3 rounded-md bg-[#7d6ef4] p-4 px-6 font-bold  leading-tight text-white"
-        >
-          <span className="leading flex h-full items-center align-middle">
+        <a target="_blank" className="">
+          <span className="leading mx-auto  flex h-full w-fit items-center justify-center gap-3 rounded-md  bg-[#7d6ef4] p-4 px-6 align-middle font-bold leading-tight text-white">
             Fetch Links
           </span>
         </a>
