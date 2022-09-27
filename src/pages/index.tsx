@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-filename-extension */
 import { motion } from 'framer-motion'
 import type { NextPage } from 'next'
 import Head from 'next/head'
