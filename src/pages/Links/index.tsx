@@ -2,8 +2,8 @@ import axios from 'axios'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useEffect, useState } from 'react'
-import Footer from '../../components/Footer'
 
+import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
 export const getStaticProps: GetStaticProps = async () => {
@@ -34,7 +34,7 @@ export default function Links(props: any) {
       <Headbar />
 
       <Head>
-        <title>Teste rota 2</title>
+        <title>Links</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -59,7 +59,6 @@ export default function Links(props: any) {
             <p key={users.name}>{users.name}</p>
           ))}
         </ul>
-        
       </div>
       <Footer />
     </div>

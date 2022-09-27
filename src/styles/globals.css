@@ -10,6 +10,8 @@
   font-style: normal;
 }
 html,body,#__next{
+  color:white;
+  background:#13111B;
   height: 100%;
 }
 *{
