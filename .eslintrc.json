@@ -1,6 +1,3 @@
 {
-    "extends": "@kayooliveira/eslint-config/react",
-    "rules": {
-        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }]
-     }
+    "extends": "@kayooliveira/eslint-config/react"
 }
