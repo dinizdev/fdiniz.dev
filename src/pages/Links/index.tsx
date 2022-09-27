@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import axios from 'axios'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-filename-extension */
 import Head from 'next/head'
 
 import Footer from '../../components/Footer'
