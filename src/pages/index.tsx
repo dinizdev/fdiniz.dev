@@ -31,7 +31,6 @@ const Home: NextPage = () => {
           FullStack Developer | Systems analysis and development. =)
           <br />
           <span className="pt-10 text-[1.1rem] text-gray-500">
-            {' '}
             Studying daily and perfecting myself to get a professional
             placement.
           </span>

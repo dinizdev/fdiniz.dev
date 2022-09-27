@@ -1,6 +1,6 @@
 import Head from 'next/head'
-import Footer from '../../components/Footer'
 
+import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
 export default function About() {
@@ -8,7 +8,7 @@ export default function About() {
     <div>
       <Headbar />
       <Head>
-        <title>Teste rota 1</title>
+        <title>About</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

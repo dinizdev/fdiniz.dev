@@ -1,6 +1,7 @@
+/* eslint-disable react/react-in-jsx-scope */
 import Head from 'next/head'
-import Footer from '../../components/Footer'
 
+import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
 export default function Projects() {
@@ -9,7 +10,7 @@ export default function Projects() {
       <Headbar />
 
       <Head>
-        <title>Teste rota 3</title>
+        <title>Projects</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -18,6 +19,5 @@ export default function Projects() {
       </h1>
       <Footer />
     </div>
-    
   )
 }
