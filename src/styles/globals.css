@@ -29,9 +29,7 @@ a{
   cursor: pointer;
   color:#8f9ba8;
   text-transform: uppercase;
-  font-family: 'Quicksand', sans-serif;
-
-;}
+  }
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

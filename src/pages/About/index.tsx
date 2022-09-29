@@ -3,10 +3,12 @@ import Image from 'next/image'
 
 import dinizbw from '../../assets/diniz-bw.jpg'
 import Footer from '../../components/Footer'
+import Headbar from '../../components/Headbar'
 
 export default function About() {
   return (
     <div>
+      <Headbar />
       <Head>
         <title>About</title>
         <meta name="description" content="" />
@@ -33,10 +35,13 @@ export default function About() {
           />
         </section>
         <section className="itens-center flex justify-center">
-          <span className=" text-center text-[1.2rem] text-gray-500">
+          <span className="p-10 text-center text-[1.2rem] text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
             aspernatur suscipit possimus, ea non repudiandae consequatur
-            corrupti odio autem, odit
+            corrupti odio autem, odit Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Accusantium voluptatibus reiciendis, optio eum in
+            repellat! Aperiam ipsam sunt a fugiat quisquam, deserunt quis quo
+            porro neque ex quidem. Culpa, quibusdam.
           </span>
         </section>
       </div>
