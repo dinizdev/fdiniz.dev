@@ -21,7 +21,7 @@ html,body,#__next{
   box-sizing: border-box;
 }
 
-a {
+a{
   color: inherit;
   text-decoration: none;
   font-weight:500;
