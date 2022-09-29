@@ -1,15 +1,14 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import { motion } from 'framer-motion'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import { ImFolderDownload } from 'react-icons/im'
 
 import Footer from '../components/Footer'
-import Headbar from '../components/Headbar'
 
 const Home: NextPage = () => {
   return (
     <div>
-      <Headbar />
       <Head>
         <title>Felipe Diniz</title>
         <meta name="description" />

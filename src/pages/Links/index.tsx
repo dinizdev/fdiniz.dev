@@ -1,34 +1,9 @@
-import axios from 'axios'
-import { GetStaticProps } from 'next'
 import Head from 'next/head'
-import { useEffect, useState } from 'react'
 
 import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
-export const getStaticProps: GetStaticProps = async () => {
-  const url = 'https://api.github.com/users/dinizdev'
-  const data = await axios.get(url)
-  return {
-    props: {
-      users: [
-        {
-          ...data.data,
-        },
-      ],
-    },
-  }
-}
-
-export default function Links(props: any) {
-  const [users, setUsers] = useState([])
-  useEffect(() => {
-    if (props.users) {
-      setUsers(props.users)
-      console.log(props.users)
-    }
-  }, [props.users])
-
+export default function Links() {
   return (
     <div>
       <Headbar />
@@ -50,11 +25,6 @@ export default function Links(props: any) {
       </div>
       <div className="grid h-56 grid-cols-2 content-center gap-4 text-center">
         <h2 className="text-center text-2xl">Data fetching links</h2>
-        <ul className="col-start-2 text-2xl">
-          {users.map((users: any) => (
-            <p key={users.name}>{users.name}</p>
-          ))}
-        </ul>
       </div>
       <Footer />
     </div>
