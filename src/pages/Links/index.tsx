@@ -17,11 +17,6 @@ export default function Links() {
         <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-center text-5xl font-extrabold text-transparent">
           Links
         </h1>
-        <span className="flex gap-6">
-          <a href="">Github</a>
-          <a href="">Linkedin</a>
-          <a href="">Twitter</a>
-        </span>
       </div>
       <Footer />
     </div>
