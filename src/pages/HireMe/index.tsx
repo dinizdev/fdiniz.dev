@@ -1,9 +1,8 @@
 import Head from 'next/head'
 
 import Footer from '../../components/Footer'
+import Mailer from '../../components/FormMail'
 import Headbar from '../../components/Headbar'
-// eslint-disable-next-line import/no-unresolved
-import Mailer from '../../components/Mailer'
 
 export default function HireMe() {
   return (
