@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-page-custom-font */
 import { motion } from 'framer-motion'
 import type { NextPage } from 'next'
 import Head from 'next/head'
@@ -16,10 +15,7 @@ const Home: NextPage = () => {
         <meta name="description" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Quicksand:wght@300;400&display=swap"
-          rel="stylesheet"
-        />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
