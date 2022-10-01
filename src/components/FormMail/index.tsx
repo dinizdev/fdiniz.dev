@@ -1,7 +1,3 @@
-import { FormEvent, useState } from 'react'
-
-import { sendContactMail } from '../../pages/services/sendMail'
-
 export default function FormMail() {
   return (
     <div className=" flex flex-row items-center justify-center p-8">
