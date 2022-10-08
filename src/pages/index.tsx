@@ -19,6 +19,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      const milena = () => {
+        alert('milena te amuuuu')
+      }
+
+
       <div className="mx-auto mt-40 w-full items-center justify-center text-center">
         <motion.h1 className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent">
           Felipe Diniz
