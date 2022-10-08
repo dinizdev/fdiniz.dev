@@ -10,7 +10,7 @@ export default function Headbar() {
           <div>
             <div className="flex items-center justify-between py-3 md:block md:py-5">
               <Link href="/">
-                <h2 className="cursor-pointer bg-gradient-to-r from-pink-600 via-purple-400 to-indigo-500 bg-clip-text text-[1.2rem] font-bold uppercase text-transparent ">
+                <h2 className="cursor-pointer bg-gradient-to-r from-green-600 via-green-400 to-indigo-500 bg-clip-text text-[1.2rem] font-bold uppercase text-transparent ">
                   FDiniz.dev
                 </h2>
               </Link>
@@ -61,7 +61,7 @@ export default function Headbar() {
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white">
                   <Link href="About">
-                    <a>About</a>
+                    <a>Sobre</a>
                   </Link>
                 </li>
                 <li className="text-white">
@@ -71,12 +71,12 @@ export default function Headbar() {
                 </li>
                 <li className="text-white">
                   <Link href="Projects">
-                    <a>Projects</a>
+                    <a>Projetos</a>
                   </Link>
                 </li>
                 <li className="text-white">
                   <Link href="HireMe">
-                    <a>Hire ME!</a>
+                    <a>Contrate-me!</a>
                   </Link>
                 </li>
               </ul>

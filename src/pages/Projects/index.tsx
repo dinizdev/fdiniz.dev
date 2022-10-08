@@ -14,8 +14,8 @@ export default function Projects() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="itens-center flex justify-center">
-        <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-left text-5xl font-extrabold text-transparent">
-          Projects
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-left text-xl font-extrabold text-transparent">
+          Projetos
         </h1>
       </div>
       <Footer />

@@ -14,7 +14,7 @@ export default function Links() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col space-x-16 text-center">
-        <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-center text-5xl font-extrabold text-transparent">
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-xl font-extrabold text-transparent">
           Links
         </h1>
       </div>

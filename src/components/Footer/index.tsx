@@ -3,7 +3,7 @@ export default function Footer() {
     <div>
       <div className="m-auto h-auto flex-auto">
         <p className="m-auto h-full pt-40 text-center">
-          Made with love by Felipe Diniz ❤️️
+          Feito com amor por Felipe Diniz ❤️️
         </p>
       </div>
     </div>

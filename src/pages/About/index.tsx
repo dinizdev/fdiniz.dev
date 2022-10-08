@@ -10,13 +10,13 @@ export default function About() {
     <div>
       <Headbar />
       <Head>
-        <title>About</title>
+        <title>Sobre</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="itens-center flex w-full justify-center">
-        <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-left text-5xl font-extrabold text-transparent">
-          About
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-xl font-extrabold text-transparent">
+          Sobre mim.
         </h1>
       </section>
       <div>
@@ -35,7 +35,7 @@ export default function About() {
           />
         </section>
         <section className="itens-center flex justify-center">
-          <span className="p-10 text-center text-[1.2rem] text-gray-500">
+          <span className="max-w-screen-md p-10 text-center text-[1.2rem] text-gray-500">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
             aspernatur suscipit possimus, ea non repudiandae consequatur
             corrupti odio autem, odit Lorem ipsum dolor sit amet consectetur
