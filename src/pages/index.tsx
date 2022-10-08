@@ -9,7 +9,6 @@ import Headbar from '../components/Headbar'
 const Home: NextPage = () => {
   return (
     <div>
-      <Headbar />
       <Head>
         <title>Felipe Diniz</title>
         <meta name="description" />
@@ -19,7 +18,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="mx-auto mt-40 w-full items-center justify-center text-center">
+      <Headbar />
+      <div className="mx-auto mt-28 w-full items-center justify-center text-center">
         <motion.h1 className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent">
           Felipe Diniz
         </motion.h1>
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <p className="text-let pt-10 text-[1.2rem]">
           Desenvolvedor FullStack | Análise e desenvolvimento de sistemas =)
           <br />
-          <span className="pt-10 text-[1.1rem] text-gray-500">
+          <span className="p-1 pt-10 text-[1.1rem] text-gray-500">
             Um louco apaixonado por programação, disposto a aprender cada vez
             mais.
           </span>
@@ -44,10 +44,7 @@ const Home: NextPage = () => {
           </span>
         </a>
       </div>
-
-      <div className="flex flex-col">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   )
 }

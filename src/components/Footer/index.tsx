@@ -1,11 +1,24 @@
+import { BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs'
 export default function Footer() {
   return (
     <div>
-      <div className="m-auto h-auto flex-auto">
-        <p className="m-auto h-full pt-40 text-center">
-          Feito com amor por Felipe Diniz ❤️️
-        </p>
-      </div>
+      <p className="mt-56  text-center">Feito com amor por Felipe Diniz ❤️️</p>
+      <section className=" align-center bg-dark-400  flex justify-center gap-5  p-4 text-sm text-white">
+        <div className="flex gap-6 ">
+          <a className="flex  gap-3">
+            <BsInstagram />
+            <span>Instagram</span>
+          </a>
+          <a className="flex gap-3" href="google.com">
+            <BsGithub />
+            <span>Github</span>
+          </a>
+          <a className="flex  gap-3" href="">
+            <BsLinkedin />
+            <span> Linkedin</span>
+          </a>
+        </div>
+      </section>
     </div>
   )
 }
