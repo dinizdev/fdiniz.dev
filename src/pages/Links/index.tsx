@@ -18,6 +18,9 @@ export default function Links() {
           Links
         </h1>
       </div>
+      <div className="itens-center flex justify-center text-2xl">
+        <h2>em breve links aqui...</h2>
+      </div>
       <Footer />
     </div>
   )

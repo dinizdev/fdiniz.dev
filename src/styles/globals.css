@@ -29,7 +29,15 @@ a{
   cursor: pointer;
   color:#8f9ba8;
   text-transform: uppercase;
+  font-family: "Biotif";
   }
+  span{
+    font-family: "Biotif";
+}
+h1,h2,p{
+  font-family: "Biotif";
+  letter-spacing: 1.2px;
+}
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
