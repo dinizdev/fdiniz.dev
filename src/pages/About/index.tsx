@@ -20,12 +20,7 @@ export default function About() {
         </h1>
       </section>
       <div>
-        <nav>
-          <ul>
-            <a href=""></a>
-          </ul>
-        </nav>
-        <section className="itens-center flex w-full justify-center">
+        <section className="itens-center flex  justify-center">
           <Image
             alt="Diniz"
             className="rounded-3xl border-4 border-solid border-emerald-700"
@@ -34,16 +29,26 @@ export default function About() {
             height="330"
           />
         </section>
-        <section className="itens-center flex justify-center">
-          <span className="max-w-screen-md p-10 text-center text-[1.2rem] text-gray-500">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias
-            aspernatur suscipit possimus, ea non repudiandae consequatur
-            corrupti odio autem, odit Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Accusantium voluptatibus reiciendis, optio eum in
-            repellat! Aperiam ipsam sunt a fugiat quisquam, deserunt quis quo
-            porro neque ex quidem. Culpa, quibusdam.
+        <section className="align-center flex max-w-lg flex-wrap justify-center">
+          <span className="  p-10 text-center text-[1.2rem] text-gray-500 ">
+            Meu nome é Felipe, me chamam de Diniz e tenho 24 anos.
+          </span>
+          <span className=" p-10  text-center text-[1.2rem] italic text-gray-500 ">
+            Sou programador fullstack, apaixonado por tecnologia. Atualmente
+            estou cursando analise e desenvolvimento de sistemas na Universidade
+            Positivo, tenho 1 ano de estudo com essas tecnologias: Html. Css.
+            JavaScript. TypeScript. TailwindCss. NextJS e Ruby.
           </span>
         </section>
+        <div className="flex max-w-lg flex-wrap gap-5 p-4">
+          <h2 className="py-5 text-2xl italic">Carreira</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ipsum
+            soluta corporis incidunt, repudiandae tempora inventore saepe ipsa
+            adipisci cupiditate, quo dolores officia labore rem magnam
+            asperiores omnis possimus totam.
+          </p>
+        </div>
       </div>
       <Footer />
     </div>
