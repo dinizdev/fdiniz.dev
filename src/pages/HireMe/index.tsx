@@ -10,13 +10,13 @@ export default function HireMe() {
       <Headbar />
 
       <Head>
-        <title>Hire Me!</title>
+        <title>Contrate-me!</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="">
-        <h1 className="bg-gradient-to-r from-purple-500 via-purple-400 to-indigo-500 bg-clip-text p-20 text-center text-5xl font-extrabold text-transparent">
-          Hire me =)
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-xl font-extrabold text-transparent">
+          Contrate-me =)
         </h1>
         <Mailer />
         <Footer />
