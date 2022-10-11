@@ -4,7 +4,7 @@ import Footer from '../../components/Footer'
 import Mailer from '../../components/FormMail'
 import Headbar from '../../components/Headbar'
 
-export default function HireMe() {
+export default function hireme() {
   return (
     <div>
       <Headbar />
