@@ -5,7 +5,7 @@ import dinizbw from '../../assets/diniz-bw.jpg'
 import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
-export default function About() {
+export default function about() {
   return (
     <div>
       <Headbar />
@@ -29,7 +29,7 @@ export default function About() {
             height="330"
           />
         </section>
-        <section className="align-center flex max-w-lg flex-wrap justify-center">
+        <section className="align-center min-w-md flex flex-wrap justify-center">
           <span className="  p-10 text-center text-[1.2rem] text-gray-500 ">
             Meu nome é Felipe, me chamam de Diniz e tenho 24 anos.
           </span>
@@ -40,7 +40,7 @@ export default function About() {
             JavaScript. TypeScript. TailwindCss. NextJS e Ruby.
           </span>
         </section>
-        <div className="flex max-w-lg flex-wrap gap-5 p-4">
+        <div className="min-w-md  flex flex-wrap  gap-5 p-4">
           <h2 className="py-5 text-2xl italic">Carreira</h2>
           <p>
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id, ipsum
