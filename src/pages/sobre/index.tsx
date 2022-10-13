@@ -12,7 +12,6 @@ export default function about() {
       <Head>
         <title>Sobre</title>
         <meta name="description" content="" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="itens-center flex w-full justify-center">
         <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-xl font-extrabold text-transparent">

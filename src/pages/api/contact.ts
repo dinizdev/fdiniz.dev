@@ -4,8 +4,8 @@ const email = process.env.MAILADRESS
 const emailPass = process.env.MAILPASS
 
 const transporter = nodemailer.createTransport({
-  host: 'imap.gmail.com',
-  port: 993,
+  host: 'smtp.gmail.com',
+  port: 587,
   auth: {
     user: email,
     pass: emailPass,

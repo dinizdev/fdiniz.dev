@@ -60,7 +60,7 @@ export default function Headbar() {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-white">
-                  <Link href="about">
+                  <Link href="sobre">
                     <a>Sobre</a>
                   </Link>
                 </li>
@@ -70,12 +70,12 @@ export default function Headbar() {
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="projects">
+                  <Link href="projetos">
                     <a>Projetos</a>
                   </Link>
                 </li>
                 <li className="text-white">
-                  <Link href="hireme">
+                  <Link href="contato">
                     <a>Contrate-me!</a>
                   </Link>
                 </li>
