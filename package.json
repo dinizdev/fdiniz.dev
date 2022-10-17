@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.3.1",
+    "@sendgrid/mail": "^7.7.0",
     "@types/nodemailer": "^6.4.6",
     "axios": "^1.1.2",
     "framer-motion": "^7.3.2",
@@ -21,7 +22,8 @@
     "react-dom": "18.2.0",
     "react-easy-emoji": "^1.8.0",
     "react-hot-toast": "^2.4.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "sendgrid": "^5.2.3"
   },
   "devDependencies": {
     "@kayooliveira/eslint-config": "^1.0.1",

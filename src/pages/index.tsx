@@ -14,8 +14,14 @@ const Home: NextPage = () => {
         <meta name="description" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+          rel="icon"
+          href="/fav.svg"
+          sizes="1080x1080"
+          type="image/svg+xml"
+        />
 
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#ffffff" />
       </Head>
 
       <Headbar />

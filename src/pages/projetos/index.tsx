@@ -3,13 +3,13 @@ import Head from 'next/head'
 import Footer from '../../components/Footer'
 import Headbar from '../../components/Headbar'
 
-export default function projects() {
+export default function projetos() {
   return (
     <div>
       <Headbar />
 
       <Head>
-        <title>Projects</title>
+        <title>Projetos</title>
         <meta name="description" content="" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
