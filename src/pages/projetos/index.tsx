@@ -19,7 +19,7 @@ export default function projetos() {
         transition={{ type: 'spring', stiffness: 100 }}
       >
         <div className="itens-center flex justify-center">
-          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-left text-4xl font-extrabold text-transparent">
+          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-10 text-left text-4xl font-extrabold text-transparent">
             Projetos
           </h1>
         </div>

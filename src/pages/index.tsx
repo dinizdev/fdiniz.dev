@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { ImFolderDownload } from 'react-icons/im'
 
 import artbw from '../assets/art-bw.png'
+import indexbw from '../assets/index-bw.png'
 import Footer from '../components/Footer'
 import Headbar from '../components/Headbar'
 
@@ -39,9 +40,10 @@ const Home: NextPage = () => {
           animate={{ y: 40 }}
           transition={{ type: 'spring', stiffness: 100 }}
         >
+          <br />
           <Image
             alt="Diniz"
-            className="rounded-3xl border-4 border-solid border-emerald-700"
+            className="w-full  border-solid border-white border-emerald-700"
             src={artbw}
             width="280"
             height="330"
