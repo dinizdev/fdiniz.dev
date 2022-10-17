@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion'
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import Image from 'next/image'
 import { ImFolderDownload } from 'react-icons/im'
 
+import artbw from '../assets/art-bw.png'
 import Footer from '../components/Footer'
 import Headbar from '../components/Headbar'
 
@@ -25,11 +27,28 @@ const Home: NextPage = () => {
       </Head>
 
       <Headbar />
-      <div className="mx-auto mt-28 w-full items-center justify-center text-center">
-        <motion.h1 className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent">
+
+      <div className="mx-auto  w-full items-center justify-center text-center">
+        <motion.h1
+          animate={{ y: 50 }}
+          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent"
+        >
           Felipe Diniz
         </motion.h1>
-
+        <motion.div
+          animate={{ y: 40 }}
+          transition={{ type: 'spring', stiffness: 100 }}
+        >
+          <Image
+            alt="Diniz"
+            className="rounded-3xl border-4 border-solid border-emerald-700"
+            src={artbw}
+            width="280"
+            height="330"
+          />
+        </motion.div>
+        <br />
+        <br />
         <p className="text-let pt-10 text-[1.2rem]">
           Desenvolvedor FullStack | Análise e desenvolvimento de sistemas =)
           <br />
@@ -38,17 +57,21 @@ const Home: NextPage = () => {
             mais.
           </span>
         </p>
-        <p className="pt-10 text-[1.1rem] text-gray-500"></p>
-        <a
-          target="_blank"
-          href="cv.pdf"
-          className="mx-auto flex w-fit items-center justify-center gap-3 rounded-md bg-green-600 p-4 px-6 font-bold  leading-tight text-white"
+        <motion.div
+          animate={{ y: 50 }}
+          transition={{ type: 'spring', stiffness: 100 }}
         >
-          <ImFolderDownload className="mb-1" />
-          <span className="leading flex h-full items-center align-middle">
-            Download CV
-          </span>
-        </a>
+          <a
+            target="_blank"
+            href="cv.pdf"
+            className="mx-auto flex w-fit items-center justify-center gap-3 rounded-md bg-green-600 p-4 px-6 font-bold  leading-tight text-white"
+          >
+            <ImFolderDownload className="mb-1" />
+            <span className="leading flex h-full items-center align-middle">
+              Download CV
+            </span>
+          </a>
+        </motion.div>
       </div>
       <Footer />
     </div>

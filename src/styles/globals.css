@@ -11,7 +11,7 @@
 }
 html,body,#__next{
   color:white;
-  background:#13111B;
+  background:#040303;
   height: 100%;
 }
 *{
@@ -44,7 +44,6 @@ h1,h2,p{
   }
   body {
     color: white;
-    background: #08070b;
     font-family: "Biotif";
     src: url('../assets/Biotif.ttf');
   }
