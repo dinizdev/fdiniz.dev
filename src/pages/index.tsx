@@ -5,7 +5,6 @@ import Image from 'next/image'
 import { ImFolderDownload } from 'react-icons/im'
 
 import artbw from '../assets/art-bw.png'
-import indexbw from '../assets/index-bw.png'
 import Footer from '../components/Footer'
 import Headbar from '../components/Headbar'
 
