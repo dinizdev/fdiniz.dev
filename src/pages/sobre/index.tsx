@@ -15,7 +15,7 @@ export default function about() {
         <meta name="description" content="" />
       </Head>
       <section className="itens-center flex w-full justify-center">
-        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-4xl font-extrabold text-transparent">
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-10 text-center text-4xl font-extrabold text-transparent">
           Sobre mim.
         </h1>
       </section>
