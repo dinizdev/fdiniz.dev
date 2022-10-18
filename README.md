@@ -9,4 +9,4 @@ Technologies used in the project
 - [Tailwind CSS] -  CSS framework for rapid UI development.
 - [Framer Motion] -  CSS framework for animations.
 
-<a href="http://google.com.au/" rel="some text">![Foo](https://i.imgur.com/zpXNqWO.png)</a>
+<a href="http://google.com.au/" rel="some text">![Foo](https://i.imgur.com/6ky4Umq.png))</a>
