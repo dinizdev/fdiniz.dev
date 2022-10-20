@@ -15,11 +15,11 @@ export default function links() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.div
-        animate={{ y: 40 }}
+        animate={{ y: 60 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
         <div className="flex flex-col space-x-16 text-center">
-          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-10 text-center text-4xl font-extrabold text-transparent">
+          <h1 className="bg-gradient-to-r from-yellow-500 via-yellow-400 to-green-500 bg-clip-text p-5 text-center text-4xl font-extrabold text-transparent">
             Links
           </h1>
         </div>

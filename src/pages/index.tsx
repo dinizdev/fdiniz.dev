@@ -30,22 +30,22 @@ const Home: NextPage = () => {
 
       <div className="mx-auto  w-full items-center justify-center text-center">
         <motion.h1
-          animate={{ y: 50 }}
+          animate={{ y: 40 }}
           className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent"
         >
           Felipe Diniz
         </motion.h1>
         <motion.div
-          animate={{ y: 40 }}
+          animate={{ y: 60 }}
           transition={{ type: 'spring', stiffness: 100 }}
         >
           <br />
           <Image
             alt="Diniz"
-            className="w-full  border-solid border-white border-emerald-700"
+            className="w-full  border-solid"
             src={artbw}
             width="280"
-            height="330"
+            height="300"
           />
         </motion.div>
         <br />
@@ -59,7 +59,7 @@ const Home: NextPage = () => {
           </span>
         </p>
         <motion.div
-          animate={{ y: 50 }}
+          animate={{ y: 25 }}
           transition={{ type: 'spring', stiffness: 100 }}
         >
           <a

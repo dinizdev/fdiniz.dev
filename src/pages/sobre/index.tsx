@@ -23,14 +23,14 @@ export default function about() {
         animate={{ y: 40 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
-        <div>
-          <section className="itens-center flex  justify-center">
+        <div className="grid-cols-2 md:grid">
+          <section className="itens-center flex justify-center">
             <Image
               alt="Diniz"
-              className="rounded-3xl border-4 border-solid border-emerald-700"
+              className="rounded-3xl border-4 border-solid border-emerald-700 "
               src={dinizbw}
-              width="280"
-              height="330"
+              width="300"
+              height="390"
             />
           </section>
           <section className="align-center min-w-md flex flex-wrap justify-center">
@@ -45,7 +45,7 @@ export default function about() {
               NextJS e Ruby.
             </span>
           </section>
-          <div className="min-w-md  flex flex-wrap  gap-5 p-4">
+          <div className="min-w-md  flex  flex-wrap gap-5 p-12 md:grid">
             <h2 className="py-5 text-2xl italic">Carreira</h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
