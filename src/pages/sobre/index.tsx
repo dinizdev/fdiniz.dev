@@ -20,7 +20,7 @@ export default function about() {
         </h1>
       </section>
       <motion.div
-        animate={{ y: 40 }}
+        animate={{ y: 30 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
         <div className="grid-cols-2 md:grid">
@@ -36,6 +36,9 @@ export default function about() {
           <section className="align-center min-w-md flex flex-wrap justify-center">
             <span className="  p-10 text-center text-[1.2rem] text-gray-500 ">
               Meu nome é Felipe, me chamam de Diniz e tenho 24 anos.
+            </span>
+            <span className="mb-8 sm:text-2xl md:hidden lg:hidden">
+              Role para baixo
             </span>
             <span className=" p-10  text-center text-[1.2rem] italic text-gray-500 ">
               Sou programador fullstack, apaixonado por tecnologia. Atualmente
