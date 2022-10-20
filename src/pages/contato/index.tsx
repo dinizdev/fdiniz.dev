@@ -20,7 +20,7 @@ export default function hireme() {
         animate={{ y: 40 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
-        <h1 className="bg-gradient-to-r from-green-500  via-green-400 to-indigo-500 bg-clip-text p-20 text-center text-4xl font-extrabold text-transparent md:text-5xl ">
+        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text text-center text-4xl font-extrabold text-transparent">
           Contrate-me =)
         </h1>
         <Mailer />
