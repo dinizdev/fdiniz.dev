@@ -4,6 +4,7 @@ type Repository = {
   name: string
   description: string
   html_url: string
+  language: string
 }
 
 export default function Repos() {
@@ -31,6 +32,12 @@ export default function Repos() {
             </li>
             <p className="text-sm italic  text-zinc-400" key={repo.description}>
               {repo.description}
+            </p>
+            <p
+              className="w-64 list-disc bg-violet-600 p-2 text-sm font-bold transition-all delay-100 ease-in-out hover:bg-zinc-500"
+              key={repo.language}
+            >
+              Linguagem utilizada: {repo.language}
             </p>
             <a
               className="text-sm font-bold text-white underline underline-offset-8"
