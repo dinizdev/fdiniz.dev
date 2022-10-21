@@ -14,16 +14,16 @@ export default function about() {
         <title>Sobre</title>
         <meta name="description" content="" />
       </Head>
-      <section className="itens-center flex w-full justify-center">
-        <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-10 text-center text-4xl font-extrabold text-transparent">
-          Sobre mim.
-        </h1>
-      </section>
       <motion.div
         animate={{ y: 40 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
-        <div className="grid-cols-2 md:grid">
+        <section className="itens-center flex w-full justify-center">
+          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-5 text-center text-4xl font-extrabold text-transparent">
+            Sobre mim.
+          </h1>
+        </section>
+        <div className="max-w-screen-xl grid-cols-2 place-items-center content-center md:grid">
           <section className="itens-center flex justify-center">
             <Image
               alt="Diniz"
@@ -45,15 +45,46 @@ export default function about() {
               NextJS e Ruby.
             </span>
           </section>
-          <div className="min-w-md  flex  flex-wrap gap-5 p-12 md:grid">
-            <h2 className="py-5 text-2xl italic">Carreira</h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id,
-              ipsum soluta corporis incidunt, repudiandae tempora inventore
-              saepe ipsa adipisci cupiditate, quo dolores officia labore rem
-              magnam asperiores omnis possimus totam.
-            </p>
-          </div>
+        </div>
+        <div className="min-w-md grid w-full grid-cols-1 flex-wrap gap-5 p-5 md:p-40">
+          <h2 className="py-5 text-3xl italic">Carreira</h2>
+          <span>
+            <p className="text-lg font-bold">Open Source</p>
+            <a
+              href="https://t.me/ProgrameirosGroup"
+              target="_blank"
+              className="text-md gap-2 normal-case text-white underline underline-offset-8"
+              rel="noreferrer"
+            >
+              Programeiros
+            </a>
+          </span>
+          <p className="text-left italic">
+            Participei de um projeto de codigo aberto, envolvendo a comunidade
+            programeiros, na ajuda de membros, e na platarforma do site.
+          </p>
+          <p className="text-zinc-500">ago 2016 - ago 2021</p>
+          <span>
+            <p className="text-lg font-bold">Projeto Proprietario</p>
+            <a
+              href="https://github.com/dinizdev/fdiniz.dev"
+              target="_blank"
+              className="text-md gap-2 normal-case text-white underline underline-offset-8"
+              rel="noreferrer"
+            >
+              Portifolio Fdiniz.dev
+            </a>
+          </span>
+          <p className="text-left italic">
+            Desenvolvimento do Meu Portifolio Fdiniz, usando as tecnlogias
+            abaixo.
+          </p>
+          <ul>
+            <li className=" hover:text-violet-500">Next JS</li>
+            <li className=" hover:text-emerald-600">TailwindCSS</li>
+            <li className=" hover:text-orange-600">Framer Motion</li>
+          </ul>
+          <p className="text-zinc-500">set 2022</p>
         </div>
       </motion.div>
       <Footer />

@@ -59,24 +59,32 @@ export default function Headbar() {
               }`}
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
+                <li className="transition ease-in-out">
                   <Link href="sobre">
-                    <a>Sobre</a>
+                    <a className="text-zinc-400 transition delay-100 ease-in-out hover:text-emerald-400 focus:text-emerald-400  ">
+                      Sobre
+                    </a>
                   </Link>
                 </li>
                 <li className="text-white">
                   <Link href="links">
-                    <a>Links</a>
+                    <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400 ">
+                      Links
+                    </a>
                   </Link>
                 </li>
-                <li className="text-white">
+                <li className="text-white focus:text-emerald-400">
                   <Link href="projetos">
-                    <a>Projetos</a>
+                    <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400 ">
+                      Projetos
+                    </a>
                   </Link>
                 </li>
                 <li className="text-white">
                   <Link href="contato">
-                    <a>Contrate-me!</a>
+                    <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400">
+                      Contrate-me!
+                    </a>
                   </Link>
                 </li>
               </ul>

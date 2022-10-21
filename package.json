@@ -10,20 +10,16 @@
   },
   "dependencies": {
     "@next/eslint-plugin-next": "^12.3.1",
-    "@sendgrid/mail": "^7.7.0",
-    "@types/nodemailer": "^6.4.6",
-    "axios": "^1.1.2",
+    "axios": "0.21.1",
     "framer-motion": "^7.3.2",
     "next": "12.3.0",
     "nextjs-progressbar": "^0.0.15",
     "nodemailer": "^6.8.0",
-    "notiflix": "^3.2.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-easy-emoji": "^1.8.0",
     "react-hot-toast": "^2.4.0",
-    "react-icons": "^4.4.0",
-    "sendgrid": "^5.2.3"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "@kayooliveira/eslint-config": "^1.0.1",

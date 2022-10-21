@@ -12,20 +12,12 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Felipe Diniz</title>
-        <meta name="description" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
-        <link
-          rel="icon"
-          href="/fav.svg"
-          sizes="1080x1080"
-          type="image/svg+xml"
-        />
-
-        <meta name="theme-color" content="#ffffff" />
+        <title>Sobre</title>
+        <meta name="description" content="" />
       </Head>
-
+      <Head>
+        <title>Felipe Diniz</title>
+      </Head>
       <Headbar />
 
       <div className="mx-auto  w-full items-center justify-center text-center">
