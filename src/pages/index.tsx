@@ -20,18 +20,18 @@ const Home: NextPage = () => {
       </Head>
       <Headbar />
 
-      <div className="mx-auto  w-full items-center justify-center text-center">
+      <div className="mx-auto w-full items-center justify-center text-center">
         <motion.h1
-          animate={{ y: 40 }}
-          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent"
+          animate={{ y: 30 }}
+          transition={{ type: 'spring', stiffness: 100 }}
+          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent lg:text-6xl"
         >
           Felipe Diniz
         </motion.h1>
         <motion.div
-          animate={{ y: 60 }}
+          animate={{ y: 30 }}
           transition={{ type: 'spring', stiffness: 100 }}
         >
-          <br />
           <Image
             alt="Diniz"
             className="w-full  border-solid"
@@ -40,9 +40,8 @@ const Home: NextPage = () => {
             height="300"
           />
         </motion.div>
-        <br />
-        <br />
-        <p className="text-let pt-10 text-[1.2rem]">
+
+        <p className="pt-10 text-center text-[1.2rem]">
           Desenvolvedor FullStack | Análise e desenvolvimento de sistemas =)
           <br />
           <span className="p-1 pt-10 text-[1.1rem] text-gray-500">
@@ -64,9 +63,9 @@ const Home: NextPage = () => {
               Download CV
             </span>
           </a>
+          <Footer />
         </motion.div>
       </div>
-      <Footer />
     </div>
   )
 }

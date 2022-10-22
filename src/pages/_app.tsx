@@ -21,7 +21,8 @@ function MyApp({ Component, pageProps }: AppProps) {
         showOnShallow
         startPosition={0.3}
         height={3}
-        color={'green'}
+        color={'#10b981'}
+        options={{ showSpinner: false }}
       />
       <Component {...pageProps} />
     </div>

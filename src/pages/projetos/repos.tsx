@@ -23,22 +23,25 @@ export default function Repos() {
       {repositories.map((repo) => {
         return (
           // eslint-disable-next-line react/jsx-key
-          <div className="flex  list-disc flex-col gap-5 border-solid border-y-sky-800 p-5">
+          <div className="flex list-disc  flex-col gap-5 border-solid border-y-sky-800 p-5 ">
             <li
-              className="  border-l-8 border-solid border-emerald-500 p-2 text-lg font-bold  "
+              className=" border-l-8 border-solid border-emerald-500 p-2 text-lg font-bold md:text-2xl  "
               key={repo.name}
             >
               {repo.name}
             </li>
-            <p className="text-sm italic  text-zinc-400" key={repo.description}>
+            <p
+              className="text-sm italic text-zinc-400  md:max-w-lg md:text-[1.2rem]"
+              key={repo.description}
+            >
               {repo.description}
             </p>
-            <p
+            {/* <p
               className="w-64 list-disc bg-violet-600 p-2 text-sm font-bold transition-all delay-100 ease-in-out hover:bg-zinc-500"
               key={repo.language}
             >
               Linguagem utilizada: {repo.language}
-            </p>
+            </p> */}
             <a
               className="text-sm font-bold text-white underline underline-offset-8"
               href={repo.html_url}

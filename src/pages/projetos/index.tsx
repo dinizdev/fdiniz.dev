@@ -15,11 +15,11 @@ export default function projetos() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <motion.div
-        animate={{ y: 60 }}
+        animate={{ y: 30 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
         <div className="itens-center flex  justify-center">
-          <h1 className="bg-gradient-to-r from-green-500 via-violet-400 to-indigo-500 bg-clip-text p-5 text-left text-4xl font-extrabold text-transparent">
+          <h1 className="bg-gradient-to-r from-green-500 via-violet-400 to-indigo-500 bg-clip-text p-5 text-left text-4xl font-extrabold text-transparent lg:text-5xl">
             Projetos
           </h1>
         </div>

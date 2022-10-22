@@ -89,8 +89,8 @@ export default function about() {
           </ul>
           <p className="text-zinc-500">set 2022</p>
         </div>
+        <Footer />
       </motion.div>
-      <Footer />
     </div>
   )
 }
