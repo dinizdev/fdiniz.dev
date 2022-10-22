@@ -41,10 +41,10 @@ const Home: NextPage = () => {
           />
         </motion.div>
 
-        <p className="pt-10 text-center text-[1.2rem]">
+        <p className="pt-10 text-center text-[1.2rem] md:text-[1.4rem]">
           Desenvolvedor FullStack | Análise e desenvolvimento de sistemas =)
           <br />
-          <span className="p-1 pt-10 text-[1.1rem] text-gray-500">
+          <span className="p-1 pt-10 text-[1.1rem] italic text-gray-500 md:text-[1.3rem]">
             Um louco apaixonado por programação, disposto a aprender cada vez
             mais.
           </span>

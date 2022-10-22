@@ -1,11 +1,11 @@
 import { BsGithub, BsLinkedin, BsInstagram } from 'react-icons/bs'
 export default function Footer() {
   return (
-    <div>
+    <div className="">
       <p className="mt-8  text-center lg:text-lg">
         Feito com amor por Felipe Diniz 💚️ 2022
       </p>
-      <section className=" align-center bg-dark-400  lg:text-1xl flex justify-center  gap-5 pt-4 text-sm text-white">
+      <section className=" align-center bg-dark-400 lg:text-1xl flex  flex-grow justify-center  gap-5 pt-4 text-sm text-white">
         <div className="flex gap-6 ">
           <a
             className="flex  gap-3"
