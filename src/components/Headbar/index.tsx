@@ -1,10 +1,11 @@
+import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { useState } from 'react'
 
 export default function Headbar() {
   const [navbar, setNavbar] = useState(false)
   return (
-    <div>
+    <motion.div>
       <nav className="w-full bg-[#08070b] shadow">
         <div className="mx-auto justify-between px-4 md:flex md:items-center md:px-8 lg:max-w-7xl">
           <div>
@@ -15,7 +16,9 @@ export default function Headbar() {
                 </h2>
               </Link>
               <div className="md:hidden">
-                <button
+                <motion.button
+                  animate={{ x: -50 }}
+                  transition={{ type: 'spring', stiffness: 100 }}
                   className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
                   onClick={() => setNavbar(!navbar)}
                 >
@@ -48,7 +51,7 @@ export default function Headbar() {
                       />
                     </svg>
                   )}
-                </button>
+                </motion.button>
               </div>
             </div>
           </div>
@@ -80,18 +83,11 @@ export default function Headbar() {
                     </a>
                   </Link>
                 </li>
-                <li className="text-white">
-                  <Link href="contato">
-                    <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400">
-                      Contrate-me!
-                    </a>
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-    </div>
+    </motion.div>
   )
 }

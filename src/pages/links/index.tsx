@@ -19,13 +19,13 @@ export default function links() {
         animate={{ y: 30 }}
         transition={{ type: 'spring', stiffness: 100 }}
       >
-        <div className="min-w-screen-lg  grid flex-col justify-center gap-10 ">
+        <div className="min-w-screen-lg  grid flex-col justify-center  ">
           <h1 className="bg-gradient-to-r from-orange-500 via-orange-400 to-violet-500 bg-clip-text p-5 text-center text-4xl font-extrabold text-transparent lg:text-5xl">
             Links
           </h1>
 
           <div className="text-md pl-7 lowercase">
-            <h3 className="border-l-8 border-solid border-emerald-500 p-5  text-2xl font-bold capitalize italic text-zinc-400  lg:text-3xl">
+            <h3 className="text-white-400 border-l-4 border-solid border-emerald-500  p-5 text-2xl font-bold  capitalize  lg:text-3xl">
               Meus Links Favoritos
             </h3>
             <nav className=" pl-16">
@@ -50,10 +50,10 @@ export default function links() {
                 </ol>
               </ul>
             </nav>
-            <h3 className=" border-l-8 border-solid border-emerald-500 p-5 text-2xl font-bold capitalize italic text-zinc-400 lg:text-3xl">
+            <h3 className=" text-white-400 border-l-4 border-solid border-emerald-500 p-5 text-2xl font-bold capitalize  lg:text-3xl">
               Meus Apps Favoritos
             </h3>
-            <div className="text-md justify-center pl-20 text-center lg:text-3xl">
+            <div className="text-md justify-center pl-16 text-center lg:text-3xl">
               <nav className="flex text-left">
                 <ul>
                   <ol className="list-disc">
