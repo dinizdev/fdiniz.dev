@@ -16,9 +16,7 @@ export default function Headbar() {
                 </h2>
               </Link>
               <div className="md:hidden">
-                <motion.button
-                  animate={{ x: -50 }}
-                  transition={{ type: 'spring', stiffness: 100 }}
+                <button
                   className="rounded-md p-2 text-gray-700 outline-none focus:border focus:border-gray-400"
                   onClick={() => setNavbar(!navbar)}
                 >
@@ -51,7 +49,7 @@ export default function Headbar() {
                       />
                     </svg>
                   )}
-                </motion.button>
+                </button>
               </div>
             </div>
           </div>
