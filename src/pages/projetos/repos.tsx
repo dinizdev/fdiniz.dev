@@ -19,7 +19,7 @@ export default function Repos() {
   }, [])
 
   return (
-    <ul>
+    <ul className="p-5 md:p-5">
       {repositories.map((repo) => {
         return (
           // eslint-disable-next-line react/jsx-key
