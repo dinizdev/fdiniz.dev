@@ -70,7 +70,7 @@ export default function Headbar() {
                 <li className="text-white">
                   <Link href="links">
                     <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400 ">
-                      Links
+                      Setup
                     </a>
                   </Link>
                 </li>

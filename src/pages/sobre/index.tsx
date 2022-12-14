@@ -17,38 +17,42 @@ export default function about() {
       <motion.div
         animate={{ y: 30 }}
         transition={{ type: 'spring', stiffness: 100 }}
+        className="min-w-screen-lg  grid flex-col justify-center md:justify-items-start"
       >
-        <section className="itens-center flex w-full justify-center">
-          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-5 text-center text-4xl font-extrabold text-transparent">
+        <section className="itens-center flex flex-col w-full">
+          <h1 className="bg-gradient-to-r from-green-500 via-green-400 to-indigo-500 bg-clip-text p-5 text-center text-3xl font-extrabold text-transparent">
             Sobre mim.
           </h1>
-        </section>
-        <div className="max-w-screen-xl grid-cols-2 place-items-center content-center md:grid">
-          <section className="itens-center flex justify-center">
+        
+        <div className="max-w-screen-xl grid-cols-2 grid-rows-none place-items-center content-center md:grid">
+          
+          <section className=" min-w-sm grid grid-cols-2 sm:grid-flow-row">
+          <section className="">
             <Image
               alt="Diniz"
               className="rounded-3xl border-4 border-solid border-emerald-700 "
               src={dinizbw}
               width="300"
-              height="390"
+              height="410"
             />
           </section>
-          <section className="align-center min-w-md flex flex-wrap justify-center">
-            <span className="  p-10 text-center text-[1.2rem] text-gray-500 ">
+            <span className="text-left text-[1rem] text-gray-300 p-5">
               Meu nome é Felipe, me chamam de Diniz e tenho 24 anos.
-            </span>
-            <span className="mb-8 sm:text-2xl md:hidden lg:hidden">
+            
+            {/* <span className="mb-8 sm:text-2xl md:hidden lg:hidden">
               Role para baixo
-            </span>
-            <span className=" p-10  text-center text-[1.2rem] italic text-gray-500 ">
+            </span> */}
+            <span className=" p-5 text-left text-[1rem] italic text-gray-400 ">
               Sou programador fullstack, apaixonado por tecnologia. Atualmente
               estou cursando analise e desenvolvimento de sistemas na
               Universidade Positivo, tenho 1 ano de estudo com essas
               tecnologias: Html. Css. JavaScript. TypeScript. TailwindCss.
               NextJS e Ruby.
+              </span>
             </span>
           </section>
         </div>
+        </section>
         <div className="min-w-md grid w-full grid-cols-1 flex-wrap gap-5 p-5 md:p-40">
           <h2 className="py-5 text-3xl italic">Carreira</h2>
           <span>

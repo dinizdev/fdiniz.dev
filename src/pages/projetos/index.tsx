@@ -19,11 +19,11 @@ export default function projetos() {
         transition={{ type: 'spring', stiffness: 100 }}
       >
         <div className="itens-center flex  justify-center">
-          <h1 className="bg-gradient-to-r from-green-500 via-violet-400 to-indigo-500 bg-clip-text p-5 text-left text-4xl font-extrabold text-transparent lg:text-5xl">
+          <h1 className="bg-gradient-to-r from-green-500 via-violet-400 to-indigo-500 bg-clip-text p-5 text-left text-4xl font-extrabold text-transparent">
             Projetos
           </h1>
         </div>
-        <div className="itens-center  flex justify-center text-2xl">
+        <div className="itens-center  flex justify-center text-3xl">
           <Repos />
         </div>
       </motion.div>

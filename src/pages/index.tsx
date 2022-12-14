@@ -13,7 +13,7 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Sobre</title>
-        <meta name="description" content="" />
+        <meta name="description" content="sobre o site fdiniz.dev" />
       </Head>
       <Head>
         <title>Felipe Diniz</title>
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <motion.h1
           animate={{ y: 30 }}
           transition={{ type: 'spring', stiffness: 100 }}
-          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-4xl font-extrabold text-transparent "
+          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-4xl font-extrabold text-transparent"
         >
           Felipe Diniz
         </motion.h1>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         >
           <Image
             alt="Diniz"
-            className="w-full  border-solid"
+            className="w-full border-solid"
             src={artbw}
             width="380"
             height="300"
