@@ -59,7 +59,7 @@ export default function Headbar() {
                 navbar ? 'block' : 'hidden'
               }`}
             >
-              <ul className=" text-sm items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <ul className="`items-center·justify-center·space-y-8·text-sm` space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="transition ease-in-out">
                   <Link href="sobre">
                     <a className="text-zinc-400 transition delay-100 ease-in-out hover:text-emerald-400 focus:text-emerald-400  ">
