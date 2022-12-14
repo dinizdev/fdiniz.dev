@@ -4,7 +4,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { ImFolderDownload } from 'react-icons/im'
 
-import artbw from '../assets/art-bw.png'
+import artbw from '../assets/art-bw.svg'
 import Footer from '../components/Footer'
 import Headbar from '../components/Headbar'
 
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
         <motion.h1
           animate={{ y: 30 }}
           transition={{ type: 'spring', stiffness: 100 }}
-          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-5xl font-extrabold text-transparent lg:text-6xl"
+          className="bg-gradient-to-r from-pink-600 via-green-400 to-indigo-500 bg-clip-text text-center text-4xl font-extrabold text-transparent "
         >
           Felipe Diniz
         </motion.h1>
@@ -36,15 +36,15 @@ const Home: NextPage = () => {
             alt="Diniz"
             className="w-full  border-solid"
             src={artbw}
-            width="280"
+            width="380"
             height="300"
           />
         </motion.div>
 
-        <p className="pt-10 text-center text-[1.2rem] md:text-[1.4rem]">
+        <p className="pt-10 text-center text-[1rem] md:text-[1.1rem]">
           Desenvolvedor FullStack | Análise e desenvolvimento de sistemas =)
           <br />
-          <span className="p-1 pt-10 text-[1.1rem] italic text-gray-500 md:text-[1.3rem]">
+          <span className="p-1 pt-10 text-[1rem] italic text-gray-500 md:text-[1.1rem]">
             Um louco apaixonado por programação, disposto a aprender cada vez
             mais.
           </span>
