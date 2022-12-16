@@ -44,10 +44,9 @@ export default function about() {
             </span> */}
             <span className=" p-5 text-left text-[1rem] italic text-gray-400 ">
               Sou programador fullstack, apaixonado por tecnologia. Atualmente
-              estou cursando analise e desenvolvimento de sistemas na
-              Universidade Positivo, tenho 1 ano de estudo com essas
-              tecnologias: Html. Css. JavaScript. TypeScript. TailwindCss.
-              NextJS e Ruby.
+              graduando análise e desenvolvimento de sistemas na
+              Universidade Positivo, tenho 1 ano de estudos com essas
+              tecnologias: Html5 - Css - JavaScript - TypeScript - TailwindCss -NextJS e Ruby.
               </span>
             </span>
           </section>
@@ -67,23 +66,25 @@ export default function about() {
             </a>
           </span>
           <p className="text-left italic">
-            Participei de um projeto de codigo aberto, envolvendo a comunidade
-            programeiros, na ajuda de membros, e na platarforma do site.
+            Participei de projetos de código aberto,
+            envolvendo a comunidade programeiros, com a
+            ajuda dos demais membros, na plataforma do
+            site.
           </p>
-          <p className="text-zinc-500">ago 2016 - ago 2021</p>
+          <p className="text-zinc-500">ago. 2016 - ago. 2021</p>
           <span>
-            <p className="text-lg font-bold">Projeto Proprietario</p>
+            <p className="text-lg font-bold">Projeto Proprietário</p>
             <a
               href="https://github.com/dinizdev/fdiniz.dev"
               target="_blank"
               className="text-md gap-2 normal-case text-white underline underline-offset-8"
               rel="noreferrer"
             >
-              Portifolio Fdiniz.dev
+              Portfólio Fdiniz.dev
             </a>
           </span>
           <p className="text-left italic">
-            Desenvolvimento do Meu Portifolio Fdiniz, usando as tecnlogias
+            Desenvolvimento do Meu Portfólio Fdiniz, usando as tecnologias
             abaixo.
           </p>
           <ul>
@@ -91,7 +92,7 @@ export default function about() {
             <li className=" hover:text-emerald-600">TailwindCSS</li>
             <li className=" hover:text-orange-600">Framer Motion</li>
           </ul>
-          <p className="text-zinc-500">set 2022</p>
+          <p className="text-zinc-500">set. 2022</p>
         </div>
         <Footer />
       </motion.div>
