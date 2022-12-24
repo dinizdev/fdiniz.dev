@@ -75,6 +75,13 @@ export default function Headbar() {
                   </Link>
                 </li>
                 <li className="text-white focus:text-emerald-400">
+                  <Link href="trabalhos">
+                    <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400 ">
+                      Trabalhos
+                    </a>
+                  </Link>
+                </li>
+                <li className="text-white focus:text-emerald-400">
                   <Link href="projetos">
                     <a className="text-zinc-400 hover:text-emerald-400 focus:text-emerald-400 ">
                       Projetos

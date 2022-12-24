@@ -24,7 +24,7 @@ export default function about() {
             Sobre mim.
           </h1>
         
-        <div className="max-w-screen-xl grid-cols-2 grid-rows-none place-items-center content-center md:grid">
+        <div className="max-w-screen-xl grid-cols-2 grid-rows-none place-items-center content-center md:grid p-10">
           
           <section className=" min-w-sm grid grid-cols-2 sm:grid-flow-row">
           <section className="">
@@ -94,8 +94,8 @@ export default function about() {
           </ul>
           <p className="text-zinc-500">set. 2022</p>
         </div>
-        <Footer />
       </motion.div>
+        <Footer />
     </div>
   )
 }

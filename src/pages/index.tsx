@@ -46,7 +46,7 @@ const Home: NextPage = () => {
           <br />
           <span className="p-1 pt-10 text-[1rem] italic text-gray-500 md:text-[1.1rem]">
             Um louco apaixonado por programação, disposto a aprender cada vez
-            mais.
+            mais 👨‍💻
           </span>
         </p>
         <motion.div
